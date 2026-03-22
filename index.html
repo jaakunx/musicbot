@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Jaakuna Discord Bot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #1e1e2f;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            color: #00d084;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            margin-top: 50px;
+            font-size: 3em;
+        }
+        .commands {
+            text-align: left;
+            display: inline-block;
+            margin-top: 40px;
+            background: #2c2c3e;
+            padding: 20px 30px;
+            border-radius: 12px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin: 8px 0;
+        }
+        p {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎵 Jaakuna Discord Bot 🎵</h1>
+    <p>Invite the bot: <a href="https://discord.com/oauth2/authorize?client_id=1485353288055390409&scope=bot%20applications.commands&permissions=3148800">Click here</a></p>
+    <p>Support server: <a href="https://discord.gg/WNdVRrvwAn">Join Discord</a></p>
+    
+    <div class="commands">
+        <h2>Commands:</h2>
+        <ul>
+            <li>!ping – Pong!</li>
+            <li>!hello – Greets you</li>
+            <li>!join – Bot joins your voice channel</li>
+            <li>!leave – Bot leaves voice channel</li>
+            <li>!play [YouTube link] – Plays a song</li>
+            <li>!skip – Skip current song</li>
+            <li>!pause – Pause song</li>
+            <li>!resume – Resume song</li>
+            <li>!queue – Show current queue</li>
+            <li>!nowplaying – Show currently playing song</li>
+        </ul>
+    </div>
+</body>
+</html>
